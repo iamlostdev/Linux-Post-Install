@@ -11,3 +11,10 @@ Arch-Post-Install ported to work with all linux distros(via nix PM)
 <html>
 <p>run main script via <code>./post-install.sh</code></p>
 </html>
+
+# Extras
+
+<html>
+<p>if you run qtile, you can use my config by running <code>./qtile.sh</code></p>
+<p>if you use want to use zsh you can use my zshrc by running <code>./zsh.sh</code></p>
+</html>

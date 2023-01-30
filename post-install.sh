@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 sh <(curl -L https://nixos.org/nix/install) --daemon
 
+tset
+
 nix-env --install zsh keepassxc kdesu kde-cli-tools scrot ulauncher github-desktop npm kdeconnect-kde kdenlive k3b virt-manager qemu ovmf libvirt dnsmasq feh swtpm meson gparted cmake kitty topgrade htop neovim helix vimplugins-vim-plug vscodium handbrake redshift spotify wireshark qbittorrent ferdi goxel bottles librewolf google-chrome brave rawtherapee celluloid audacity darktable inkscape gimp blender discord filezilla dosbox tor protonup-ng thunderbird wine gnome.nautilus signal-desktop flatpak
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

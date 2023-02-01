@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-sh <(curl -L https://nixos.org/nix/install) --daemon
 
-sleep 3
+read -e -p "are you using nix os? [Y or N]" choice
+
+[[ "$choice" == [Yy]* ]] && echo "skipping setting up nix" || sh <(curl -L https://nixos.org/nix/install) --daemon 
+
+sleep 5
 
 reset
 

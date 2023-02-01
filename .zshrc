@@ -19,6 +19,9 @@ alias ...="cd ../.."
 alias scrot="scrot -s $HOME/Pictures/%Y-%m-%d-%T-screenshot.jpg"
 alias hx="helix"
 alias vi="nvim"
+alias neofetch="neofetch --ascii /home/michael/ascii.txt"
+alias ssh="kitty +kitten ssh"
+alias updateapps="cp $HOME/.nix-profile/share/applications/* $HOME/.local/share/applications/"
 
 #changes zsh hostname to be username@hostname(dir)$
 
